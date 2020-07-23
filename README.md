@@ -3,6 +3,7 @@ An easy-to-use API to post your servercount to [discord-botlist.eu](https://disc
 
 ## How to use
 ``` DiscordBotlistApi dblApi = new DiscordBotlistApi("yourbotstokenhere");
-dblApi.post(servercount);```
+dblApi.post(servercount);
+```
 
 that's it.
