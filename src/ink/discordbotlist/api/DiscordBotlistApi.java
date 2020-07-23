@@ -34,6 +34,8 @@ public class DiscordBotlistApi {
         		System.out.println(dbl + "An error occured while trying to post your servercount: Unauthorized Token");
         	} else if (http.getResponseCode() == 500) {
         		System.out.println(dbl + "An error occured while trying to post your servercount: Internal Server error.");
+        	} else {
+        		System.out.println(dbl + "An error occured while trying to post your servercount: Unknown (Responsecode: " + http.getResponseCode() + ")");
         	}
         	http.disconnect();
         	
