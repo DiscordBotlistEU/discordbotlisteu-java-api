@@ -37,7 +37,6 @@ public class DiscordBotlistApi {
         	} else {
         		System.out.println(dbl + "An error occured while trying to post your servercount: Unknown (Responsecode: " + http.getResponseCode() + ")");
         	}
-        	http.disconnect();
         	
     	}catch (IOException e) {
 		    e.printStackTrace();
