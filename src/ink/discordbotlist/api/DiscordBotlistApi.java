@@ -22,7 +22,7 @@ public class DiscordBotlistApi {
     	try {
     		
     		System.out.println(dbl + "Trying to post the servercount...");
-    		URL url = new URL("https://www.discord-botlist.eu/api/setservers/" + getToken() + "/" + servercount);
+    		URL url = new URL("https://api.discord-botlist.eu/setservers/" + getToken() + "/" + servercount);
         	URLConnection con = url.openConnection();
         	HttpURLConnection http = (HttpURLConnection)con;
         	con.setRequestProperty("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31");
