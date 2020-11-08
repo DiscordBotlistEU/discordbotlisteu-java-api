@@ -8,3 +8,7 @@ dblApi.post(servercount);
 ```
 
 that's it.
+
+## Important Information
+I'm currently working on an update for the API since the old endpoints were shut down due to an update to the API itself. 
+
